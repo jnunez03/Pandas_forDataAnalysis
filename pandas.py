@@ -142,3 +142,87 @@ unsampled_data = data.reindex(new_index)
 unsampled_data.head(10)  # we need to fill NaN's ..
 # interpolate... # using time as index.
 unsampled_data = unsampled_data.interpolate(method="time")
+
+unsampled_data.head()  #check..
+# You can resample on a column ... ("D", on=)
+daily_data = unsampled_data.resample("D") # groups.                 
+daily_data = unsampled_data.resample("D").count()
+daily_data = unsampled_data.resample("D").mean()
+daily_data = unsampled_data.resample("D").asfreq()
+print(daily_data)
+
+daily_data = daily_data.drop(["contributor"], axis=1)
+daily_data["weekdays"] = daily_data.index.weekday_name
+daily_data.head()
+
+
+# Plot data once more.. 
+
+daily_data.plot(style=".-")
+
+# How many coffees were made on any given day.. 
+# diff difference between any two rows. shift because we had two NANS
+coffees_made = daily_data.coffees.diff().shift(-1)
+
+# add as column to dataframe
+daily_data["coffees_made_today"] = coffees_made
+daily_data.head(n=10)
+
+# group by weekdays.. 
+#mean is avg of coffees made each day.
+coffees_by_day = daily_data.groupby("weekdays").mean()
+coffees_by_day  # not sorted tho .. Mon, tues, wed , thurs, fri .. 
+#coffees_by_day is data frame... 
+coffees_by_day = coffees_by_day.loc[weekday_names]
+coffees_by_day.coffees_made_today.plot(kind="bar")
+
+
+# How many coffees did people drink ?  
+# link: https://raw.githubusercontent.com/QCaudron/pydata_pandas/master/data/department_members.csv
+
+people = pd.read_csv("https://raw.githubusercontent.com/QCaudron/pydata_pandas/master/data/department_members.csv", index_col="date", parse_dates=True)
+people.head()
+people.index #datettime index! good. 
+ # how do we add something monthly to something that is daily?
+
+# use an outer join then interpolate over missing values using nearest values.
+daily_data = daily_data.join(people, how="outer").interpolate(method="nearest")
+ 
+daily_data
+
+daily_data["coffees_per_person"]= daily_data.coffees_made_today / daily_data.members
+daily_data.head(n=10)
+
+daily_data.coffees_per_person.plot()
+
+# We have data for occurrences in the graph that drop.. 
+machine_status = pd.read_csv("https://raw.githubusercontent.com/QCaudron/pydata_pandas/master/data/coffee_status.csv",
+                             index_col="date",parse_dates=True)
+
+machine_status.head()
+
+#what are values in status column.. 
+
+machine_status.status.value_counts()  
+# When did they break?
+# make a pd series for when it was OK
+numerical_status = machine_status.status == "OK"
+
+numerical_status.plot()
+# Join it to data set 
+daily_data = daily_data.join(machine_status)
+daily_data.head() #Check . good.
+#creating it into a column
+daily_data["numerical_status"] = daily_data.status =="OK"
+
+daily_data.head()
+# pass list to index
+daily_data.numerical_status *=100
+daily_data[["numerical_status", "coffees_made_today"]].plot()
+
+# strong weekend effect ..
+# resample is . create a bin for every week, every data point that falls into that week
+#group it into that bin
+weekly_data = daily_data.resample("W").mean()
+
+weekly_data[["coffees_made_today","numerical_status"]].plot()
