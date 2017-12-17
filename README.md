@@ -1,10 +1,10 @@
 # Python for Data Analysis: Pandas, Numpy, ETC!
 ![Pandas](https://user-images.githubusercontent.com/23710841/34076744-25597a40-e2be-11e7-9749-68dea8a29589.png)
 
-## Getting Started.
+## Getting Started
 I recommend you download [Anaconda](https://www.anaconda.com/what-is-anaconda/). It is the best IDE for using python as it comes pre-loaded with all the necessary libraries and it has IPython, Jupyter Notebooks, Spyder IDE, and RStudio! It's amazing.
 
-
+_________________________________________________________________________
 ### File: pandas.py
 This was a file about people getting coffee from a machine and it includes the dates and times they got coffee.
 
