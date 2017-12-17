@@ -1,7 +1,6 @@
 # Python for Data Analysis
 
 ## Also, on pandas, numpy, and everything else that goes along with them!
-_________________________________________________________________________
 
 File: pandas.py
 This was a file about people getting coffee from a machine and it includes the dates and times they got coffee.
