@@ -70,5 +70,6 @@ File: nonpam.py
 ### Transform Distributions
 file: distribution.py
 
-# Dimensionality Reduction
+# Dimensionality Reduction (Coming Soon!)
+
 
