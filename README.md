@@ -50,7 +50,7 @@ File: labels.py
 ### Histograms, boxes, scatters
 File: HBS.py
 
-# Math and Statistics (dont run away)
+# Math and Statistics
 
 ### Numpy 
 File: numpy.py
