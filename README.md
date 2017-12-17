@@ -10,19 +10,19 @@ This is time series data about people getting coffee from a machine.
 Despite the file being about coffee, this is a very great way to see how pandas can be used and it gets very in-depth. 
 __________________________________________________________________________
 ### Filtering and selecting data
-File: filter.py
+File: filter.py.
 This covers many basic operations for filtering and selecting data!
 
 ### How to treat missing values
-File: Missing.py
+File: Missing.py.
 This covers how to treat missing values!
 
 ### How to remove duplicates
-File: Remove.py
+File: Remove.py.
 This covers how to remove duplicates!
 
 ### Concatenate and Transformations
-File: concatANDtransform.py
+File: concatANDtransform.py.
 This covers how to concatenate and transform data 
 
 ### Group and Aggregate Data
@@ -46,7 +46,7 @@ File: labels.py
 ### Histograms, boxes, scatters
 File: HBS.py
 
-# Math and Statistics (dont run away.)
+# Math and Statistics (dont run away)
 
 ### Numpy 
 
