@@ -1,5 +1,5 @@
 # Python for Data Analysis
-![Pandas](https://user-images.githubusercontent.com/23710841/34076744-25597a40-e2be-11e7-9749-68dea8a29589.png/to/img.png)
+![Pandas](https://user-images.githubusercontent.com/23710841/34076744-25597a40-e2be-11e7-9749-68dea8a29589/to/img.png)
 
 ### Also, on pandas, numpy, and everything else that goes along with them!
 
