@@ -6,10 +6,9 @@ I recommend you download [Anaconda](https://www.anaconda.com/what-is-anaconda/).
 
 _________________________________________________________________________
 ### File: pandas.py
-This was a file about people getting coffee from a machine and it includes the dates and times they got coffee.
-
+This is time series data about people getting coffee from a machine.
 Despite the file being about coffee, this is a very great way to see how pandas can be used and it gets very in-depth. 
-
+__________________________________________________________________________
 ### Filtering and selecting data
 File: filter.py
 This covers many basic operations for filtering and selecting data!
