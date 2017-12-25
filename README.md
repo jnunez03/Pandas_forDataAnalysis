@@ -79,4 +79,10 @@ file: distribution.py
 
 # Dimensionality Reduction (Coming Soon!)
 
+# Outlier Analysis (Coming Soon!)
+
+# Cluster Analysis (Coming Soon!)
+
+# Web Scraping with Beautiful Soup (Coming Soon!)
+
 
