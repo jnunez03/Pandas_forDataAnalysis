@@ -1,4 +1,4 @@
-# Python for Data Analysis: Pandas, Numpy, ETC!
+# Python for Data Analysis: Pandas, Seaborn, Matplotlib, ETC!
 ![Pandas](https://user-images.githubusercontent.com/23710841/34076744-25597a40-e2be-11e7-9749-68dea8a29589.png)
 
 ## Getting Started
@@ -53,8 +53,9 @@ File: labels.py
 ### Time Series
 File: timeseries.py
 
-### Histograms, boxes, scatters
+### Histograms, boxes, scatters with some Seaborn!
 File: HBS.py
+![Seaborn](https://user-images.githubusercontent.com/23710841/34332253-b96e9e92-e8fc-11e7-9c06-7cf5c067abc4.png)
 
 # Math and Statistics
 
