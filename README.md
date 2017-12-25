@@ -49,6 +49,9 @@ File: format.py
 ### Labels 
 File: labels.py
 
+### Time Series
+File: timeseries.py
+
 ### Histograms, boxes, scatters
 File: HBS.py
 
