@@ -27,10 +27,12 @@ This covers how to remove duplicates!
 ### Concatenate and Transformations
 File: concatANDtransform.py
 
-This covers how to concatenate and transform data 
+This covers how to concatenate different dataframes and transform data!
 
 ### Group and Aggregate Data
 File: group.py
+
+This covers how to create subsets of data for more specific analysis!
 
 # Data Visualization!
 We need to see how things look for better understanding.
