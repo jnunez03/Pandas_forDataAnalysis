@@ -35,6 +35,7 @@ File: group.py
 This covers how to create subsets of data for more specific analysis!
 
 # Data Visualization!
+![Plot](https://user-images.githubusercontent.com/23710841/34332245-a74878be-e8fc-11e7-823b-523b91820c78.png)
 We need to see how things look for better understanding.
 
 ### Standard plots
