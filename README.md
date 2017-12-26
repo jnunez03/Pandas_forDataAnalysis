@@ -80,7 +80,7 @@ File: nonpam.py
 
 Spearmans rank and chi-squared tests.
 
-### Transform Distributions
+### Transform Distributions   -- Sci-kit learn --
 File: distribution.py
 
 You scale variables so that differences in magnitudes don't produce erroneous and misleading results. There are two ways to scale data.
