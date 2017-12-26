@@ -84,7 +84,7 @@ Spearmans rank and chi-squared tests.
 File: distribution.py
 
 You scale variables so that differences in magnitudes don't produce erroneous and misleading results. There are two ways to scale data.
-One is normalization and the other is standardization.
+One is normalization and the other is standardization. Normalization creates a value between 0 and 1 and standardization creates 0 mean and unit variance. 
 
 # Dimensionality Reduction (Coming Soon!)
 
