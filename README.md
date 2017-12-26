@@ -83,7 +83,8 @@ Spearmans rank and chi-squared tests.
 ### Transform Distributions
 File: distribution.py
 
-You scale variables so that differences in magnitudes don't produce erroneous and misleading results.
+You scale variables so that differences in magnitudes don't produce erroneous and misleading results. There are two ways to scale data.
+One is normalization and the other is standardization.
 
 # Dimensionality Reduction (Coming Soon!)
 
