@@ -72,12 +72,15 @@ File: categorical.py
 
 ### Parametric Methods
 File: parametric.py
+Pearson Coefficient.
 
 ### Non-Parametric
 File: nonpam.py
+Spearmans rank and chi-sqaured tests.
 
 ### Transform Distributions
 file: distribution.py
+You scale variables so that differences in magnitudes don't produce erroneous and misleading results.
 
 # Dimensionality Reduction (Coming Soon!)
 
