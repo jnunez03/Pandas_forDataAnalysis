@@ -103,6 +103,9 @@ File: outliers.py
 ### Outlier Analysis in multivariate method
 File: mvoutliers.py
 
+### DBSCAN for Outlier Detection --scikit-learn--
+File: linearprojection.py
+
 # Cluster Analysis (Coming Soon!)
 
 # Web Scraping with Beautiful Soup (Coming Soon!)
