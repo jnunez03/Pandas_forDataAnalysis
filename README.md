@@ -93,6 +93,9 @@ File: factor.py
 Used to find root causes that explain what causes data to act a certain way, for lack of a better expression. Factors are latent variables that are meaningful but are not directly observable. You regress on feautures in order to discover factors that you can use as variables to represent original data set. These are usually synthetic representations with extra dimensionality.
 
 Factor Analysis assumes your features are continuous or ordinal. That you have correlation coefficient greater than .3, more than 100 observations present and more than 5 observations per features, which in minimial case is 20 features. Sample must also be homogenous.
+### Principal Component Analysis
+File: pca.py
+
 # Outlier Analysis (Coming Soon!)
 
 # Cluster Analysis (Coming Soon!)
