@@ -65,6 +65,8 @@ File: numpy.py
 ### Summary Stats
 File: Summary.py
 
+Mean, Median, Standard Deviation, Variance!
+
 ### Categorical Data
 File: categorical.py
 
