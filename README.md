@@ -96,7 +96,12 @@ Factor Analysis assumes your features are continuous or ordinal. That you have c
 ### Principal Component Analysis
 File: pca.py
 
-# Outlier Analysis (Coming Soon!)
+# Outlier Analysis 
+### Outlier Analysis in univariate methods
+File: outliers.py
+
+### Outlier Analysis in multivariate method
+File: mvoutliers.py
 
 # Cluster Analysis (Coming Soon!)
 
