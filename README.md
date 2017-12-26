@@ -88,7 +88,7 @@ One is normalization and the other is standardization. Normalization creates a v
 
 # Dimensionality Reduction 
 ### Factor Analysis
-
+Used to find root causes that explain what causes data to act a certain way, for lack of a better expression.
 # Outlier Analysis (Coming Soon!)
 
 # Cluster Analysis (Coming Soon!)
