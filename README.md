@@ -131,6 +131,13 @@ File: linreg.py
 
 Simple use case would be: Let's predict the price of a home given its: kitchen size, square footage, bedrooms, yard size, and crime rate in the area. These have to be in a numeric-linear relationship with out target value, price.
 
+Assumptions: 
+- Our variables must be numerical, not categorical, however I will get into how you could still use categorical values. 
+- Data is free of missing values.
+- linear relationship between feature variables and target variable.
+- All predictors are independent of each other!
+- Residuals (error variable) is normally distributed with unit variance. 
+
 # Web Scraping with Beautiful Soup (Coming Soon!)
 
 
