@@ -106,7 +106,7 @@ File: mvoutliers.py
 ### DBSCAN for Outlier Detection --scikit-learn--
 File: linearprojection.py
 
-# Cluster Analysis (Coming Soon!)
+# Cluster Analysis
 ### K-Means WHAT?!
 File: Kmeans.py
 
