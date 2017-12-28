@@ -138,6 +138,9 @@ Assumptions:
 - All predictors are independent of each other!
 - Residuals (error variable) is normally distributed with unit variance. 
 
+### Naive-Bayes Classifier
+File: Nbc.py
+
 # Web Scraping with Beautiful Soup (Coming Soon!)
 
 
