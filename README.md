@@ -141,6 +141,8 @@ Assumptions:
 ### Naive-Bayes Classifier
 File: Nbc.py
 
+![NBC](https://user-images.githubusercontent.com/23710841/34399577-9a99f5be-eb56-11e7-86f9-2ba75a380a28.png)
+
 # Web Scraping with Beautiful Soup (Coming Soon!)
 
 
