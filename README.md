@@ -123,7 +123,7 @@ Hierarchical clustering is considered unsupervised learning as well. This allows
 File: knn.py
 
 Okay, this is [supervised learning](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm)! 
-It basically learns from observations and tries to predict classification for new observations. 
+It basically learns from observations and tries to predict classification for new observations. Data set must be labeled, and be small. Avoid using this algorithm on large datasets. 
 # Web Scraping with Beautiful Soup (Coming Soon!)
 
 
