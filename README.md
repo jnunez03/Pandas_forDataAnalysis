@@ -115,7 +115,7 @@ File: Kmeans.py
 This allows you to parititon your data into K clusters with each data point being appointed to a cluster with the nearest mean. The space will then look like [Voronoi cells](https://en.wikipedia.org/wiki/K-means_clustering). This is known as [unsupervised learning](https://en.wikipedia.org/wiki/Unsupervised_learning) which means our data isn't labeled. We will need to scale our variables and look at a scatterplot or the data table to estimate the number of centroids, or cluster centers, to set for the k parameters in the model.
 
 ### Hierarchical Clustering 
-
+File: hcluster.py
 # Web Scraping with Beautiful Soup (Coming Soon!)
 
 
