@@ -143,6 +143,15 @@ File: Nbc.py
 
 ![NBC](https://user-images.githubusercontent.com/23710841/34399577-9a99f5be-eb56-11e7-86f9-2ba75a380a28.png)
 
+Three Types:
+- Multi-nomial: When features (numeric/categorical) describe discrete frequency, like counts. 
+- Bernoulli: When features are binary (0 or 1).
+- Guassian: When feautures are normally-distributed. 
+
+Assumptions:
+- Features are independent of each other.
+- A priori assumption: past conditions still hold true. When we make predictions from historical values, we will get incorrect results if present circumstances have changed!
+
 # Web Scraping with Beautiful Soup (Coming Soon!)
 
 
