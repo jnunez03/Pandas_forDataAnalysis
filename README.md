@@ -122,7 +122,8 @@ Hierarchical clustering is considered unsupervised learning as well. This allows
 ### Instance based learning: K-Nearest Neighbors
 File: knn.py
 
-Okay, this is [supervised learning](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm)!
+Okay, this is [supervised learning](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm)! 
+It basically learns from observations and tries to predict classification for new observations. 
 # Web Scraping with Beautiful Soup (Coming Soon!)
 
 
