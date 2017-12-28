@@ -110,6 +110,8 @@ File: linearprojection.py
 ### K-Means WHAT?!
 File: Kmeans.py
 
+This allows you to parititon your data into K clusters with each data point being appointed to a cluster with the nearest mean. The space will then look like [Voronoi cells](https://en.wikipedia.org/wiki/K-means_clustering).
+
 # Web Scraping with Beautiful Soup (Coming Soon!)
 
 
