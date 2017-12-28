@@ -128,6 +128,9 @@ It basically learns from observations and tries to predict classification for ne
 # Regression Time!
 ### Linear Regression
 File: linreg.py
+
+Simple use case would be: Let's predict the price of a home given its: kitchen size, sqaure footage, bedrooms, yard size, and crime rate in the area. These have to be in a numeric-linear relationship with out target value, price.
+
 # Web Scraping with Beautiful Soup (Coming Soon!)
 
 
