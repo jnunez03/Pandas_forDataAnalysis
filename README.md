@@ -109,7 +109,9 @@ File: linearprojection.py
 # Cluster Analysis
 ### K-Means WHAT?!
 File: Kmeans.py
+
 ![Kmeans](https://user-images.githubusercontent.com/23710841/34398178-927f58bc-eb4a-11e7-922f-1435f36ce45e.png)
+
 This allows you to parititon your data into K clusters with each data point being appointed to a cluster with the nearest mean. The space will then look like [Voronoi cells](https://en.wikipedia.org/wiki/K-means_clustering). This is known as [unsupervised learning](https://en.wikipedia.org/wiki/Unsupervised_learning) which means our data isn't labeled. We will need to scale our variables and look at a scatterplot or the data table to estimate the number of centroids, or cluster centers, to set for the k parameters in the model.
 
 # Web Scraping with Beautiful Soup (Coming Soon!)
