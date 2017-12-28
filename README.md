@@ -116,6 +116,8 @@ This allows you to parititon your data into K clusters with each data point bein
 
 ### Hierarchical Clustering 
 File: hcluster.py
+
+Hierarchical clustering is considered unsupervised learning as well. This allows you to predict subgroups within data by finding distance between each data point and its nearest neighbor **linking** the most nearby neighbors. We find number of subgroups by looking at a [dendrogram](https://en.wikipedia.org/wiki/Dendrogram).
 # Web Scraping with Beautiful Soup (Coming Soon!)
 
 
