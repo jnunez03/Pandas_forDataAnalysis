@@ -133,7 +133,7 @@ Simple use case would be: Let's predict the price of a home given its: kitchen s
 
 Assumptions: 
 - Our variables must be numerical, not categorical, however I will get into how you could still use categorical values. 
-- Data is free of missing values.
+- Data is free of missing values & outliers.
 - linear relationship between feature variables and target variable.
 - All predictors are independent of each other!
 - Residuals (error variable) is normally distributed with unit variance. 
